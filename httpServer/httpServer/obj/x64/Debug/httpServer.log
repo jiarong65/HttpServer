@@ -1,0 +1,27 @@
+﻿  正在验证源
+  正在将源远程复制到“116.205.104.217”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.c
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(9,17): warning : implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(9,17): warning :     9 |                 exit(0);
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(9,17): warning :       |                 ^~~~
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(3,1): message : include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(3,1): message :     2 | #include"server.h"
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(3,1): message :   +++ |+#include <stdlib.h>
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(3,1): message :     3 |
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(9,17): warning : incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(9,17): warning :     9 |                 exit(0);
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(9,17): warning :       |                 ^~~~
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(9,17): message : include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(12,9): warning : implicit declaration of function ‘chdir’ [-Wimplicit-function-declaration]
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(12,9): warning :    12 |         chdir(argv[2]);
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(12,9): warning :       |         ^~~~~
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(14,31): warning : implicit declaration of function ‘atoi’ [-Wimplicit-function-declaration]
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(14,31): warning :    14 |         unsigned short port = atoi(argv[1]);
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(14,31): warning :       |                               ^~~~
+C:\visual studio 2022\projects\httpServer\httpServer\main.c(14,31): warning : conversion from ‘int’ to ‘short unsigned int’ may change value [-Wconversion]
+  正在链接对象
+  httpServer.vcxproj -> C:\visual studio 2022\projects\httpServer\httpServer\bin\x64\Debug\httpServer.out

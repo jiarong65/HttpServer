@@ -1,0 +1,1 @@
+g++ -o "/home/jiarong/projects/httpServer/bin/x64/Debug/httpServer.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/jiarong/projects/httpServer/obj/x64/Debug/main.o /home/jiarong/projects/httpServer/obj/x64/Debug/server.o
